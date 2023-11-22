@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+body{
+    color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+li,ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* selector avanzado: padre > hijo */
+.navbar > li{
+    width:fit-content;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 1px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* barra de navegacion */
+.navbar > li:hover{
+    background-color:rgb(49, 49, 49);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
